@@ -9,14 +9,11 @@ int main()
     scanf("%i",&b);
     printf("Podaj liczbe calkowite c: ",c);
     scanf("%i",&c);
-    if(c>a && c>b)
-        printf("%i",c);
-        if(a>b && a>c)
-            printf("%i",a);
-             if(b>a && b>c)
-        printf("%i",b);
-        else
-            printf("%i",a,b,c);
-
+    int var=a;
+    if(b>var)
+        var=b;
+    if(c>var)
+        var=c;
+    printf("%i",var);
     return 0;
 }
