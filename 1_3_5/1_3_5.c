@@ -2,11 +2,12 @@
 #include <math.h>
 
 int main()
+
 {
     int a,h,s,P,bok1,bok2,bok3;
-    printf("Pole trojkata:\n");
-    printf("Podaj dligosc i wysokosc:\n");
-    printf("Podaj dlugosc trzech bokow:\n");
+    printf(" Obliczenie pola trojkata:\n");
+    printf(" Nacisnij-1 zeby podac dlugosc i wysokosc:\n");
+    printf(" Nacisnij- 2 zeby podac dlugosc trzech bokow:\n");
     scanf("%i",&a);
     if(a==1)
     {
@@ -26,9 +27,8 @@ int main()
       scanf("%i",&bok3);
       s=(bok1+bok2+bok3)/2;
       P=sqrt(s*(s-bok1)*(s-bok2)*(s-bok3));
-
     }
     printf("Pole trojkata:%i\n",P);
-
     return 0;
+
 }
