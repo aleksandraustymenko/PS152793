@@ -14,7 +14,7 @@ int main()
     scanf("%i",&m);
     printf("%ix %iy=%i \n %ix %iy=%i",a,b,c,d,e,m);
     W=a*e-b*d;
-    Wx=c*e-a*m;
+    Wx=c*e-b*m;
     Wy=a*m-c*d;
     x=Wx/W;
     y=Wy/W;
@@ -28,16 +28,14 @@ int main()
         {
              printf("Uklad ma wielu rozwiazan\n");
         }
-
     else
     {
-        printf("x=%f ,y=%f \n",x,y);
+        printf("x=%i ,y=%i \n",x,y);
     }
    }
    if(W==0)
    {
        printf("Wyznacznik rowny 0\n");
    }
-
     return 0;
 }
