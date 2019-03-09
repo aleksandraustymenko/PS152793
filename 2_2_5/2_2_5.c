@@ -11,8 +11,8 @@ int main()
  }
 int potega(int n)
  {
-    int i,liczba=2;
-    for(i=1;i<n;i++)
+    int i,liczba=1;
+    for(i=0;i<n;++i)
     {
         liczba*=2;
     }
