@@ -1,6 +1,6 @@
-| cw 1 | cw 2|
-|---|---|
-| 2 pkt | 2 pkt |
+| cw 1 | cw 2| cw 3|
+|---|---|---|
+| 2 pkt | 2 pkt | 2 pkt|
 
 Uwagi:
 
@@ -19,3 +19,34 @@ Uwagi:
 * 1.4.10 - w linijce 18 należałoby poprawić, że to część całkowita pierwiastka a nie sam pierwiastek
 * 1.4.12 - algorytm wewnętrzu for błędnie napisany
 * 1.4.14 - program nie wypisuje wszystkich trójek pitagoryjskich, warunek w while w linijce 8 jest błędny i zawęża liczbę trójek
+
+### cw 3
+
+* 2.2.9 - rozwiązanie miało być bez funkcji, przykładowa możliwość rozpisania części całkowitej pierwiastka:
+
+```c
+int potega(int liczba, int wykl)
+{
+    int wynik=1;
+    for(int i=1;i<=wykl;i++)
+    {
+        wynik*=liczba;
+    }
+    return wynik;
+}
+
+int podlogaPierwiastek(int liczba, int stopien)
+{
+    int wynik;
+    for(int i=0;i<=liczba;i++)
+    {
+        if (potega(i,stopien)<=liczba)
+        {
+            wynik=i;
+        }
+    }
+    return wynik;
+}
+```
+
+
