@@ -1,6 +1,6 @@
-| cw 1 | cw 2| cw 3|
-|---|---|---|
-| 2 pkt | 2 pkt | 2 pkt|
+| cw 1 | cw 2| cw 3| cw 4|
+|---|---|---|---|
+| 2 pkt | 2 pkt | 2 pkt| 2 pkt|
 
 Uwagi:
 
@@ -48,5 +48,30 @@ int podlogaPierwiastek(int liczba, int stopien)
     return wynik;
 }
 ```
+
+### cw 4
+
+* na przyszłość w przypadku pytań proszę o założeniue issue i przypisanie go do mnie, w poleceniu trzeba zrobić wskaźnik na funkcję
+
+```c
+double fun(int x)
+{
+    return x+1;
+}
+
+double funkcja(double (*fun)(int arg),int a)
+{
+    return fun(a);
+}
+main()
+{
+    int a=1,arg,x;
+    printf("%lf",funkcja((&fun),a));
+    return 0;
+}
+```
+
+* 3.2.5 - getchar w funkcji jest chyba zbędny
+
 
 
