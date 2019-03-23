@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <string.h>
 
-void funkcja(unsigned int n,int tab1[n],int tab2[n])
+void funkcja(unsigned int n,int * tab1,int * tab2)
 {
     int wyb=0;
     while(wyb!=1 && wyb!=2)
@@ -21,12 +21,11 @@ void funkcja(unsigned int n,int tab1[n],int tab2[n])
             tab2[n-i-1]=tab1[i];
     }
 }
-void wypisuje(int n,int tab[n])
+void wypisuje(int n,int * tab)
 {
     for(int i=0;i<n;i++)
         printf("%d\n",tab[i]);
 }
-
 int main()
 {
     int rozmiar;
@@ -42,6 +41,5 @@ int main()
     funkcja(rozmiar,tab1,tab2);
     wypisuje(rozmiar,tab2);
     getchar();
-    exit(EXIT_SUCCESS);
-
+    return EXIT_SUCCESS;
 }
