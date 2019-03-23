@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <math.h>
 
-double funkcja(unsigned int n, const int tab[n])
+double funkcja(unsigned int n, const int * tab)
 {
     double srednia=0;
     for(int i=0;i<n;i++)
@@ -22,5 +22,5 @@ int main(void)
     printf("\n");
     printf("Srednia arytmetyczna:%.1f",funkcja(n,tab));
     getchar();
-    exit(EXIT_SUCCESS);
+    return EXIT_SUCCESS;
 }
