@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <math.h>
-
 // œredni¹ arytmetyczn¹ elementów tablicy tab.
-double funkcja(unsigned int n,int tab[n])
+
+double funkcja(unsigned int n,int * tab)
 {
    double srednia=0;
    for(int i=0;i<n;i++)
@@ -13,7 +13,7 @@ double funkcja(unsigned int n,int tab[n])
    return srednia/n;
 }
 // sumê elementów tablicy tab
-int funkcja1(unsigned int n,int tab[n])
+int funkcja1(unsigned int n,int * tab)
 {
     int suma=0;
     for(int i=0;i<n;i++)
@@ -23,7 +23,7 @@ int funkcja1(unsigned int n,int tab[n])
     return suma;
 }
 // sumê kwadratów elementów tablicy tab
-int funkcja2(unsigned int n,int tab[n])
+int funkcja2(unsigned int n,int * tab)
 {
     int suma=0;
     for(int i=0;i<n;i++)
@@ -45,5 +45,5 @@ int main(void)
     printf("Suma elementow:%i\n",funkcja1(n,tab));
     printf("Suma kwadratow:%i\n",funkcja2(n,tab));
     getchar();
-    exit(EXIT_SUCCESS);
+    return EXIT_SUCCESS;
 }
