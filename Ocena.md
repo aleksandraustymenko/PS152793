@@ -73,5 +73,20 @@ main()
 
 * 3.2.5 - getchar w funkcji jest chyba zbędny
 
+### cw5 +cw 6
 
+* 4.2.1 - za dużo printf we wnętrz funkcji. Mało doświadczony programista może nie mieć pewności czy sprawdzamy lokalną kopię zmiennych czy zmienną zadeklarowaną w main. Podobna uwaga w niektórych pozostałych zadaniach.
+* 4.2.6 - aby polecenie poprawnie było wykonane to powinny być dwie funkcje
+* 4.2.7 - typ zwracany funkcji to powinien być void (funkcja nic nie zwraca). Dodatkowo w c nie jest robione co trzeba, poniższy przypadek testowy
 
+```
+int tab1[] ={2,3,4};
+int tab2[] = {-2,-5,-3};
+int tab3[] = {0,4,-9};
+przypisz(3,tab1,tab2,tab3);
+```
+
+pokazuje, że nie jest ok. Warto stworzyć tymczasową tablicę stanowiącą buffor do skopiowania jednej z tablic.
+* 4.2.9 - warto spróbować zrobić to samo prościej, tworząc jakiś buffor (jednowymiarowy) dla zmiennych.
+* 4.2.10 - w a błędne założenie, że max ma być na start zero. Lepiej przyjąć na start element z tablicy o indeksie 0. Czwarta funkcja niedokładnie robi to co powinna.
+* 4.2.12 - funkcja3 jest błędna, iteracja powinna być w doł. Brak podpunktu e.
