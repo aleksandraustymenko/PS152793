@@ -1,6 +1,7 @@
 | cw 1 | cw 2| cw 3| cw 4| cw 5|  wej 6 | cw 6 | kolo 1| cw 8 |
 |---|---|---|---|---|---|---|---|---|
 | 2 pkt | 2 pkt | 2 pkt| 2 pkt| 2 pkt | 3 pkt | 2 pkt | 20 pkt | 2 pkt |
+
 Uwagi:
 
 ### cw1
