@@ -1,6 +1,6 @@
-| cw 1 | cw 2| cw 3| cw 4| cw 5|  wej 6 | cw 6 | kolo 1| cw 8 | cw 9 |
-|---|---|---|---|---|---|---|---|---|---|
-| 2 pkt | 2 pkt | 2 pkt| 2 pkt| 2 pkt | 3 pkt | 2 pkt | 20 pkt | 2 pkt | 2 pkt |
+| cw 1 | cw 2| cw 3| cw 4| cw 5|  wej 6 | cw 6 | kolo 1| cw 8 | cw 9 | cw 10|
+|---|---|---|---|---|---|---|---|---|---|---|
+| 2 pkt | 2 pkt | 2 pkt| 2 pkt| 2 pkt | 3 pkt | 2 pkt | 20 pkt | 2 pkt | 2 pkt | 2 pkt|
 
 Uwagi:
 
@@ -126,3 +126,7 @@ printf("%s",hour);
 
 * 6.2.6 - parametrem drugiej funkcji powinna być tablica
 * w zadaniach gdzie jest mowa, że argumentem funkcji jest tablica tablic, to nalezy uzyc podwojnego wskaznika (`int**tab`)
+
+### cw 10
+
+* ok
