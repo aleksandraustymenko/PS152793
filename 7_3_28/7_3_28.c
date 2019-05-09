@@ -55,12 +55,16 @@ int main()
 {
     struct element* var=utworz();//z glowa
     struct element* var2=utworz2();
-    dodaj(var,4);//z glowa
+    dodaj(var,10);//z glowa
     var2=dodaj2(var2,6);
-    dodaj(var,5);//z glowa
-    var2=dodaj2(var2,1);
-    printf("Z glowa: %i  %i\n",var->next->i,var->next->next->i);
-    printf("Bez glowy: %i %i\n",var2->i,var2->next->i);
+    dodaj(var,2);//z glowa
+    var2=dodaj2(var2,11);
+    dodaj(var,15);
+    var2=dodaj2(var2,5);
+    dodaj(var,18);
+    var2=dodaj2(var2,9);
+    printf("Z glowa: %i %i %i %i\n",var->next->i,var->next->next->i,var->next->next->next->i,var->next->next->next->next->i);
+    printf("Bez glowy: %i %i %i %i\n",var2->i,var2->next->i,var2->next->next->i,var2->next->next->next->i);
     printf("Maksymum (z glowa):%i\n",max(var));
     printf("Maksymum (bez glowy):%i",max2(var2));
     return 0;
