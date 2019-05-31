@@ -1,6 +1,8 @@
-| cw 1 | cw 2| cw 3| cw 4| cw 5|  wej 6 | cw 6 | kolo 1| cw 8 | cw 9 | cw 10| cw 11| cw12| cw13|
-|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
-| 2 pkt | 2 pkt | 2 pkt| 2 pkt| 2 pkt | 3 pkt | 2 pkt | 20 pkt | 2 pkt | 2 pkt | 2 pkt| 2 pkt | 2 pkt| 2 pkt |
+| cw 1 | cw 2| cw 3| cw 4| cw 5|  wej 6 | cw 6 | kolo 1| cw 8 | cw 9 | cw 10| cw 11| cw12| cw13| kolo2|
+|---|---|---|---|---|---|---|---|---|---|---|---|---|---|---|
+| 2 pkt | 2 pkt | 2 pkt| 2 pkt| 2 pkt | 3 pkt | 2 pkt | 20 pkt | 2 pkt | 2 pkt | 2 pkt| 2 pkt | 2 pkt| 2 pkt | 16 pkt|
+
+**ocena na koniec: 3,5 (dst+)**
 
 Uwagi:
 
